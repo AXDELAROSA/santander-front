@@ -1,6 +1,7 @@
 <!DOCTYPE html>
- <!-- el doctype nos indica que vamos a trabajar con html 5. -->
+<!-- el doctype nos indica que vamos a trabajar con html 5. -->
 <html lang="en">
+
 <head>
     <!-- para que acepte caracteres especiales -->
     <meta charset="UTF-8">
@@ -9,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1> Texto Normal etiqueta </h1>
     <h2> Mi segunda etiqueta</h2>
@@ -20,10 +22,10 @@
     <p>
         <b>Etiqueta en negritas, Reto #2.</b>
         Dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's 
+        industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when
-         an unknown printer took a galley of type and scrambled
-          it to make a type specimen book. 
+        an unknown printer took a galley of type and scrambled
+        it to make a type specimen book.
     </p>
 
     <!-- <input type="text"><br> -->
@@ -31,15 +33,22 @@
         <input type="email"><br>
         <button type="submit">Enviar &rarr;</button>
     </form>
-   
+
     <form action="">
-        <input type="nombre" placeholder="nombre"><br>
-        <input type="apellido" placeholder="apellido"><br>
-        <input type="number" placeholder="edad"><br>
-        <input type="email" placeholder="correo"><br>
-        <input type="password" placeholder="contraseña"><br>
-        <button type="submit">Enviar &rarr;</button>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="fname" placeholder="Nombre" required> <br><br>        
+        <input type="text" id="lastname"  name="lastname" placeholder="Apellido" required> <br>
+        <input type="number" id="age" name="age" placeholder="Edad" min="18" max="40" required> <br>
+        <input type="email" id="email" name="email" placeholder="Correo" required> <br>
+        <input type="password"  id="password" name="password" placeholder="Contraseña" required> <br>
+        <button type="submit"> Enviar &rarr; </button>
     </form>
-    
+
+    <br><br>
+    <!-- Es importante poner el alt, por si la pagina es inclusiva o si se rompe el link o está mal. 
+    sale la información que esta en "alt" -->
+    <img alt="Logo de Capterra" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+
 </body>
+
 </html>
