@@ -1,0 +1,15 @@
+h1  {
+    color: blue;
+    font-size: 55px;
+}
+h2  {
+        color: #46484c;
+        /* font-size: 100px; */
+    }
+p   {
+        color: #8b8b8bcC;
+    }
+button  {
+            color: #fff;
+            background-color: #025157;
+        }
