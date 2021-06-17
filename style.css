@@ -39,17 +39,55 @@ li {
 }
 
 .logo {
-    width: 15%;    
+    width: 15%;        
 }
 
 .navbar {
     width: 70%;
     text-align: center;
-    color: black;
+    /* reto 4*/
+    height: 45px;
+    color: #025157;
 }
+
+.navbar > * {
+    /* reto 4*/
+    font-family: sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  
 
 .actions {
     width: 15%;
     text-align: right;
+}
+/* reto 4*/
+.actions > * {
     font-size: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* reto 4*/
+.actions a{
+    color: #67b54b;
+}
+/* reto 4*/
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
 }
